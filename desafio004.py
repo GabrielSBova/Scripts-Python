@@ -1,0 +1,7 @@
+escreva = input('Digite qualquer coisa ')
+print(type(escreva))
+print('Letras minúsculas:', escreva.islower())
+print('Letras maiúsculas:', escreva.isupper())
+print('É numérico:', escreva.isnumeric())
+print('É String/letra?', escreva.isalpha())
+print('Alphanumérico:',escreva.isalnum())
